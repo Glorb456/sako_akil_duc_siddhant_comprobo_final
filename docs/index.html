@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lincoln Log Placer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Lincoln Log Placer</h1>
+      <p class="subtitle">CompRobo Final Project - Sako, Akil, Duc &amp; Siddhant</p>
+      <nav>
+        <a href="#overview">Overview</a>
+        <a href="#system">System</a>
+        <a href="#progress">Progress</a>
+        <a href="#team">Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>We plan to use the WidowX arm by Trossen Robotics as well as machine vision strategies to localize our robot in 3d space. We will then use the arm to pick up and place Lincoln Logs to build a small tower, and then finally place the roof on top.</p>
+      <img src="arm.png" alt="WidowX arm">
+      <p>Below is a sketch for our plan and our setup. The camera will likely be a Zed2I depth camera which will allow us to track our progress on the tower, as well as where the next log to pick up is.</p>
+      <img src="3dsketch.png" alt="WidowX arm">
+
+    </section>
+
+    <section id="system">
+      <h2>System</h2>
+      <p></p>
+      <img src="sysarch.png" alt="WidowX arm">
+    </section>
+
+    <section id="progress">
+      <h2>Progress</h2>
+      <p>We are working to get the simulation functional, and we have managed to get a proof of concept of the arm functioning, which includes the ability to pick up and place logs and the roof with teleop, with a demo video below.</p>
+      <img src="rvissim.png" alt="WidowX arm">
+      <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="YouTube video player"
+      allowfullscreen>
+    </iframe>   
+    </section>
+
+    <section id="team">
+      <h2>Team</h2>
+      <ul class="team-list">
+        <li>Sako</li>
+        <li>Akil</li>
+        <li>Duc</li>
+        <li>Siddhant</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><a href="https://github.com/Glorb456/sako_akil_duc_siddhant_comprobo_final">View on GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
